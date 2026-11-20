@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <AssemblyName>ParcaBul</AssemblyName>
+    <ApplicationIcon>Assets/ParcaBul.ico</ApplicationIcon>
+    <Version>0.1.0</Version>
+    <Title>ParcaBul</Title>
+    <Description>Identify songs playing through your Windows audio output.</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <Resource Include="Assets/ParcaBul.ico" />
+  </ItemGroup>
+</Project>
